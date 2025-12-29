@@ -10,9 +10,11 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"font","folderPath":"folders/font.yy","name":"font","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"objects","folderPath":"folders/objects.yy","name":"objects","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"modo","folderPath":"folders/modo.yy","name":"modo","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"modo","folderPath":"folders/objects/modo.yy","name":"modo","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"rooms","folderPath":"folders/rooms.yy","name":"rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"scenes","folderPath":"folders/rooms/scenes.yy","name":"scenes","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
@@ -23,9 +25,13 @@
   },
   "name":"MinecraftInteractive",
   "resources":[
+    {"id":{"name":"font_TWCENMT_16","path":"fonts/font_TWCENMT_16/font_TWCENMT_16.yy",},},
     {"id":{"name":"obj_manager_game","path":"objects/obj_manager_game/obj_manager_game.yy",},},
+    {"id":{"name":"obj_modo_intro","path":"objects/obj_modo_intro/obj_modo_intro.yy",},},
+    {"id":{"name":"obj_scene_intro","path":"objects/obj_scene_intro/obj_scene_intro.yy",},},
     {"id":{"name":"rm_base","path":"rooms/rm_base/rm_base.yy",},},
     {"id":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
+    {"id":{"name":"rm_intro","path":"rooms/rm_intro/rm_intro.yy",},},
     {"id":{"name":"spr_modo_intro_check","path":"sprites/spr_modo_intro_check/spr_modo_intro_check.yy",},},
     {"id":{"name":"spr_modo_intro_crouch","path":"sprites/spr_modo_intro_crouch/spr_modo_intro_crouch.yy",},},
     {"id":{"name":"spr_modo_intro_stand","path":"sprites/spr_modo_intro_stand/spr_modo_intro_stand.yy",},},
@@ -35,6 +41,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
     {"roomId":{"name":"rm_base","path":"rooms/rm_base/rm_base.yy",},},
+    {"roomId":{"name":"rm_intro","path":"rooms/rm_intro/rm_intro.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

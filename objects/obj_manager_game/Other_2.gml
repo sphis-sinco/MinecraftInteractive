@@ -1,6 +1,6 @@
 /// @description functions
 
-show_debug_log(debug_mode)
+// show_debug_log(debug_mode)
 
 
 function openSave() {

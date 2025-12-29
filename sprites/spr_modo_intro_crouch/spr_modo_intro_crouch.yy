@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"modo",
-    "path":"folders/modo.yy",
+    "path":"folders/objects/modo.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

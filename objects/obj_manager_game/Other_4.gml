@@ -16,5 +16,6 @@ if (room == rm_init) then {
 	}
 	closeSave()
 
-	room = rm_scene_selector
+	draw_set_font(font_TWCENMT_16)
+	room = rm_intro
 }
