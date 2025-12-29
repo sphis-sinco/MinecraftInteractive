@@ -24,6 +24,7 @@
   "name":"MinecraftInteractive",
   "resources":[
     {"id":{"name":"obj_manager_game","path":"objects/obj_manager_game/obj_manager_game.yy",},},
+    {"id":{"name":"rm_base","path":"rooms/rm_base/rm_base.yy",},},
     {"id":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
     {"id":{"name":"spr_modo_intro_check","path":"sprites/spr_modo_intro_check/spr_modo_intro_check.yy",},},
     {"id":{"name":"spr_modo_intro_crouch","path":"sprites/spr_modo_intro_crouch/spr_modo_intro_crouch.yy",},},
@@ -33,6 +34,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
+    {"roomId":{"name":"rm_base","path":"rooms/rm_base/rm_base.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
