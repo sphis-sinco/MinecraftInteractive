@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"MinecraftInteractive",
-    "path":"MinecraftInteractive.yyp",
+    "name":"modo",
+    "path":"folders/modo.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -8,14 +8,14 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
-  "Folders":[],
-  "ForcedPrefabProjectReferences":[],
-  "IncludedFiles":[
-    {"$GMIncludedFile":"","%Name":"spr_modo_intro_check.png","CopyToMask":-1,"filePath":"datafiles/modoFrames","name":"spr_modo_intro_check.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"spr_modo_intro_crouch.png","CopyToMask":-1,"filePath":"datafiles/modoFrames","name":"spr_modo_intro_crouch.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"spr_modo_intro_stand.png","CopyToMask":-1,"filePath":"datafiles/modoFrames","name":"spr_modo_intro_stand.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  "defaultScriptType":1,
+  "Folders":[
+    {"$GMFolder":"","%Name":"objects","folderPath":"folders/objects.yy","name":"objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"modo","folderPath":"folders/modo.yy","name":"modo","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"rooms","folderPath":"folders/rooms.yy","name":"rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
+  "ForcedPrefabProjectReferences":[],
+  "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -23,7 +23,8 @@
   },
   "name":"MinecraftInteractive",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"obj_manager_game","path":"objects/obj_manager_game/obj_manager_game.yy",},},
+    {"id":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
     {"id":{"name":"spr_modo_intro_check","path":"sprites/spr_modo_intro_check/spr_modo_intro_check.yy",},},
     {"id":{"name":"spr_modo_intro_crouch","path":"sprites/spr_modo_intro_crouch/spr_modo_intro_crouch.yy",},},
     {"id":{"name":"spr_modo_intro_stand","path":"sprites/spr_modo_intro_stand/spr_modo_intro_stand.yy",},},
@@ -31,7 +32,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
